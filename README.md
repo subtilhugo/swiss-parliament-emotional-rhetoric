@@ -1,34 +1,47 @@
-# Swiss Parliament — Le Temps slides replication
+# Swiss Parliament replication
 
-Rebuild the deck end-to-end:
+Rebuild the deck end-to-end from the official API:
 
 ```bash
 pip install -r requirements.txt
-./run_all.sh
+cp .env.example .env          # add your OPENAI_API_KEY
+./run_all.sh                  # ~18 h, ~$30 at gpt-4o-mini prices
 ```
 
 Output: `slides_letemps_parlacap.pdf`. Compilation requires `tectonic`.
 
-## Speech-level dataset
+To skip the API steps and use the committed frozen dataset instead:
 
-The pipeline needs `data/frozen/final_dataset_capstone_with_parlacap.csv`
-(~600 MB, speech-level, not in this repo because of GitHub's file-size
-limit). Place it at exactly that path before running `./run_all.sh`. Ask
-the maintainer for a copy, or rebuild it from the official Swiss
-Parliament OData service at <https://ws.parlament.ch/odata.svc/> (Python
-wrapper `swissparlpy`) plus the LLM emotion labels and the ParlaCAP topic
-classifier.
+```bash
+./run_all.sh --skip-api       # fast (~2 min)
+```
 
-`output/figure_data/` is committed: the 86 chart-level CSVs that back the
-figures can already be browsed without running the pipeline.
+## Pipeline
+
+| Script | Input | Output | Notes |
+|---|---|---|---|
+| `src/00_fetch.py` | parlament.ch OData API | `data/raw/speeches.csv` | ~1 h, no key needed |
+| `src/01_label_rhetoric.py` | speeches.csv | `data/processed/rhetoric_labels.csv` | OPENAI_API_KEY required |
+| `src/02_label_emotions.py` | speeches.csv | `data/processed/emotion_labels.csv` | OPENAI_API_KEY required |
+| `src/03_label_topics.py` | speeches.csv | `data/processed/topic_labels.csv` | OPENAI_API_KEY required |
+| `src/04_merge.py` | raw + processed | `data/processed/final_dataset.csv` | |
+| `src/build.py` | final_dataset.csv | `output/figure_data/*.csv` | |
+| `src/compile.py` | slides + figures | `slides_letemps_parlacap.pdf` | |
+
+Each labelling script supports `--smoke N` (test on N speeches) and `--resume` (continue after interruption).
 
 ## Layout
 
-- `slides/slides_letemps_parlacap.tex` — Beamer source. Figures are picked up from `data/frozen/approved_figures/`.
-- `data/frozen/final_dataset_capstone_with_parlacap.csv` — speech-level dataset (not in repo, see above).
-- `data/frozen/source_csv/` — small upstream tables used as-is when a figure relies on outputs from an external step (Gennaro–Ash speech-level scores, country comparison, decomposition drivers, gender summary).
+- `slides/slides_letemps_parlacap.tex` — Beamer source.
+- `data/frozen/approved_figures/` — pre-generated figures embedded in the slides.
+- `data/frozen/source_csv/` — small upstream tables (Gennaro–Ash scores, country comparison, decomposition drivers, gender summary).
 - `data/frozen/emotions_ahef_data.csv` — chart input for the AHEF-by-party figure.
-- `data/frozen/approved_figures/` — figures embedded in the slides.
-- `src/build.py` — for every figure in the deck, writes a compact CSV with the values plotted, plus `manifest.csv`.
-- `src/compile.py` — runs `tectonic` and copies the PDF to the project root.
-- `output/figure_data/` — chart CSVs written by `build.py` (one per figure + `manifest.csv`).
+- `output/figure_data/` — chart-level CSVs (one per figure + `manifest.csv`), committed for browsing without running the pipeline.
+- `.env.example` — template for API credentials.
+
+## Data sources
+
+- **Speeches**: Swiss Parliament OData service at <https://ws.parlament.ch/odata.svc/>
+- **Rhetoric and emotion labels**: OpenAI `gpt-4o-mini` via the prompts in `src/01_label_rhetoric.py` and `src/02_label_emotions.py`
+- **Topic labels**: CAP codebook (Comparative Agendas Project, <https://www.comparativeagendas.net/>) via `src/03_label_topics.py`
+- **Gennaro–Ash emotionality scores**: Gennaro & Ash (2022), *Emotion and Reason in Political Language*, Economic Journal

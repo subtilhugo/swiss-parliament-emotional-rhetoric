@@ -20,7 +20,10 @@ ROOT = Path(__file__).resolve().parents[1]
 SLIDES = ROOT / "slides" / "slides_letemps_parlacap.tex"
 FROZEN = ROOT / "data" / "frozen"
 SRC_CSV = FROZEN / "source_csv"
-DATA_CSV = FROZEN / "final_dataset_capstone_with_parlacap.csv"
+# Use the freshly-assembled dataset if the pipeline has been run end-to-end,
+# otherwise fall back to the committed frozen snapshot.
+_PROCESSED = ROOT / "data" / "processed" / "final_dataset.csv"
+DATA_CSV = _PROCESSED if _PROCESSED.exists() else FROZEN / "final_dataset_capstone_with_parlacap.csv"
 AHEF_CSV = FROZEN / "emotions_ahef_data.csv"
 OUT = ROOT / "output" / "figure_data"
 

@@ -1,2 +1,5 @@
 pandas>=2.0
 numpy>=1.24
+swissparlpy>=0.3
+openai>=1.0
+python-dotenv>=1.0
