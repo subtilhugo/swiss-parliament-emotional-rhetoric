@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# LaTeX intermediates
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+
+# Speech-level dataset (~600 MB) — kept out of git, see README for download instructions
+data/frozen/final_dataset_capstone_with_parlacap.csv

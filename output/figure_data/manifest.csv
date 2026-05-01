@@ -1,0 +1,87 @@
+slide_index,slide_title,figure_file,figure_data_csv,definition
+3,Floor Time Share by Party --- Nationalrat,desc_06_floor_time_share.pdf,desc_06_floor_time_share.csv,Yearly word-share by party (% of words).
+4,Topic Distribution Over Time --- Nationalrat,nationalrat_fig_parlacap_broad_topic_stacked_smoothed.pdf,nationalrat_fig_parlacap_broad_topic_stacked_smoothed.csv,Yearly share of speeches per broad ParlaCAP topic (%).
+5,Topic Emphasis by Party --- Nationalrat,fig_v4_topic_merged_party_noproc.pdf,fig_v4_topic_merged_party_noproc.csv,Topic emphasis by party across top-12 CAP topics (% of party speeches).
+6,Absolute Shift in Parliamentary Attention --- Nationalrat,fig_lt_topic_shift_noproc.pdf,fig_lt_topic_shift_noproc.csv,"Top-12 CAP topics, share early (2000-05) vs late (2020-25); delta in pp."
+7,Relative Shift in Parliamentary Attention --- Nationalrat,fig_lt_topic_shift_proportion.pdf,fig_lt_topic_shift_proportion.csv,"Top-12 CAP topics, share early (2000-05) vs late (2020-25); ratio late/early."
+8,Who Drives Topic Shifts? --- Nationalrat,nationalrat_fig_topic_shift_drivers_by_party.pdf,nationalrat_fig_topic_shift_drivers_by_party.csv,"Party contribution decomposition (early vs late, in pp)."
+9,Emotional Rhetoric --- Nationalrat,fig_lt_defD_overall_time.pdf,fig_lt_defD_overall_time.csv,Yearly share of emotional speeches (%).
+10,Emotional Rhetoric by Party --- Nationalrat,fig_lt_defD_by_party.pdf,fig_lt_defD_by_party.csv,Share of emotional speeches by party-year (%).
+11,Emotional Rhetoric by Legislature and Party --- Nationalrat,fig_lt_defD_by_legislature.pdf,fig_lt_defD_by_legislature.csv,Share of emotional speeches per legislature × party (%).
+12,Emotional Rhetoric Score --- Nationalrat,nationalrat_fig_lt_ga_emotionality_time.pdf,nationalrat_fig_lt_ga_emotionality_time.csv,Yearly mean Gennaro-Ash emotionality z-score (top-6 parties).
+13,Emotional Rhetoric Score by Party --- Nationalrat,nationalrat_fig_lt_ga_emotionality_party_facet.pdf,nationalrat_fig_lt_ga_emotionality_party_facet.csv,Yearly mean Gennaro-Ash z-score by party (Mitte = ex-PDC/M-E).
+14,Emotional Rhetoric Baseline Index --- Nationalrat,fig_lt_llm_emo_index100.pdf,fig_lt_llm_emo_index100.csv,"Emotional-rhetoric share, indexed to 2000=100."
+15,Dominant Emotion in Emotional Speeches --- Nationalrat,fig_lt_llm_dominant_party.pdf,fig_lt_llm_dominant_party.csv,"Distribution of dominant emotion within emotional speeches, by party (%)."
+16,"Enthusiasm, Anger, Hope, Fear by Party --- Nationalrat",emotions_ahef_over_time_by_party_from_csv.pdf,emotions_ahef_over_time_by_party_from_csv.csv,Year × party share for enthusiasm/anger/hope/fear (chart input as supplied).
+17,Emotional Rhetoric by Topic --- Nationalrat,fig_lt_emotionality_topic_large.pdf,fig_lt_emotionality_topic_large.csv,Mean share of emotional speeches per topic (%).
+18,Emotional Rhetoric Gap by Topic (SVP vs SP) --- Nationalrat,fig_GA_party_ratio_by_topic.pdf,fig_GA_party_ratio_by_topic.csv,"Mean Gennaro-Ash z-score per topic for SVP and SP, with SVP-SP gap."
+19,Emotional Rhetoric by Topic --- Shift --- Nationalrat,fig_lt_defD_topic_shift.pdf,fig_lt_defD_topic_shift.csv,Within-topic shift in emotional-rhetoric share (pp).
+20,Who Drives Emotional-Rhetoric Shifts Within Topics? --- Nationalrat,nationalrat_fig_emotion_shift_within_topic_drivers_by_party.pdf,nationalrat_fig_emotion_shift_within_topic_drivers_by_party.csv,"Within-topic emotional-rhetoric shift, decomposed by party (pp)."
+21,Emotional Rhetoric by Topic --- 2000--05 vs 2020--24 --- Nationalrat,fig_lt_defD_by_topic.pdf,fig_lt_defD_by_topic.csv,Within-topic shift in emotional-rhetoric share (pp).
+22,Gender Representation by Party --- Nationalrat,fig_lt_gender_mp_vs_speeches_party.pdf,fig_lt_gender_mp_vs_speeches_party.csv,"Female share among MPs vs among speeches, by party (%)."
+23,Floor-Time Gap by Gender --- Nationalrat (1999--2025),fig_lt_gender_metrics_bars_1999_2025_nationalrat.pdf,fig_lt_gender_metrics_bars_1999_2025_nationalrat.csv,"Pooled 1999-2025 gender metrics for the chamber (gap, ratios)."
+24,Canton Share of Speeches --- Nationalrat,fig_lt_canton_share.pdf,fig_lt_canton_share.csv,Speech share per canton (%).
+25,Canton Speeches per MP --- Nationalrat,fig_lt_canton_per_mp.pdf,fig_lt_canton_per_mp.csv,Speeches per MP by canton.
+26,Floor-Time Gap by Canton --- Nationalrat,fig_lt_canton_gap.pdf,fig_lt_canton_gap.csv,Speech share vs MP share gap (pp) by canton.
+27,SVP Anger Before and After 2007 --- Nationalrat,fig_lt_udc_blocher_anger.pdf,fig_lt_udc_blocher_anger.csv,"Share of SVP speeches dominated by anger, by year (%)."
+28,Anger Pre-2007 vs Post-2007 by Party --- Nationalrat,fig_lt_udc_blocher_prepost.pdf,fig_lt_udc_blocher_prepost.csv,"Share of speeches dominated by anger, pre vs post 2007, by party (%)."
+29,Emotional Rhetoric by Generation of MPs --- Nationalrat,fig_lt_cohort_emotional.pdf,fig_lt_cohort_emotional.csv,Share of emotional speeches by speaker birth decade (%).
+30,Emotional Rhetoric by Age Group --- Nationalrat,fig_lt_age_group_emotional.pdf,fig_lt_age_group_emotional.csv,Share of emotional speeches by age group (%).
+31,Emotional Rhetoric by Language of the Speech --- Nationalrat,fig_lt_emotion_language.pdf,fig_lt_emotion_language.csv,Share of emotional speeches by language (%).
+32,Applause by Party --- Nationalrat,fig_app_rate_by_party.pdf,fig_app_rate_by_party.csv,"Share of speeches followed by an applause or laughter bracket, by party (%)."
+32,Applause by Party --- Nationalrat,fig_app_type_by_party.pdf,fig_app_type_by_party.csv,"Applause vs laughter brackets, by party (%)."
+33,Most Applauded Parliamentarians --- Nationalrat,fig_app_top_mps.pdf,fig_app_top_mps.csv,Top 25 MPs by total applause/laughter brackets.
+35,Floor Time Share by Party --- Ständerat,staenderat_desc_06_floor_time_share.pdf,staenderat_desc_06_floor_time_share.csv,Yearly word-share by party (% of words).
+36,Topic Shift --- Ständerat,staenderat_fig_lt_topic_shift_noproc.pdf,staenderat_fig_lt_topic_shift_noproc.csv,"Top-12 CAP topics, share early (2000-05) vs late (2020-25); delta in pp."
+37,Emotional Rhetoric --- Ständerat,staenderat_fig_lt_defD_overall_time.pdf,staenderat_fig_lt_defD_overall_time.csv,Yearly share of emotional speeches (%).
+38,Dominant Emotion in Emotional Speeches --- Ständerat,staenderat_fig_lt_llm_dominant_party.pdf,staenderat_fig_lt_llm_dominant_party.csv,"Distribution of dominant emotion within emotional speeches, by party (%)."
+39,Floor-Time Gap by Gender --- Ständerat (1999--2025),fig_lt_gender_metrics_bars_1999_2025_staenderat.pdf,fig_lt_gender_metrics_bars_1999_2025_staenderat.csv,"Pooled 1999-2025 gender metrics for the chamber (gap, ratios)."
+42,"Six Legislatures, One Method --- Existing Comparison",fig_lt_country_emotionality_compare.pdf,fig_lt_country_emotionality_compare.csv,"Within-country yearly z-score of mean emotionality, six legislatures."
+43,National Council vs Council of States --- Emotional Share,fig_lt_council_emotional_defD_chambers.pdf,fig_lt_council_emotional_defD_chambers.csv,Share of emotional speeches by chamber-year (%).
+44,Anger Dominance by Chamber,fig_lt_council_anger.pdf,fig_lt_council_anger.csv,"Share of speeches with dominant emotion = anger, by chamber-year (%)."
+45,Albert Rösti --- Emotional Rhetoric Before and After Joining the Bundesrat,fig_federal_council_event_emotionality_defD.pdf,fig_federal_council_event_emotionality_defD.csv,Share of emotional speeches per Federal Council member by relative year to entry.
+46,Albert Rösti --- Share of Emotional Speeches,fig_roesti_energy_emotional_breakdown_defD.pdf,fig_roesti_energy_emotional_breakdown_defD.csv,Albert Rösti energy speeches: emotional breakdown by business.
+47,Albert Rösti --- Dominant Emotion Share by Business,fig_roesti_emotions_over_time_defD.pdf,fig_roesti_emotions_over_time_defD.csv,Albert Rösti yearly emotional breakdown across all speeches.
+49,Appendix --- Topic Distribution Over Time --- Ständerat,staenderat_fig_v4_topic_merged9_noproc_stacked.pdf,staenderat_fig_v4_topic_merged9_noproc_stacked.csv,Yearly share of speeches per top-9 ParlaCAP topic (%).
+50,Appendix --- Aggregated Topic Distribution Over Time --- Ständerat,staenderat_fig_parlacap_broad_topic_stacked_smoothed.pdf,staenderat_fig_parlacap_broad_topic_stacked_smoothed.csv,Yearly share of speeches per broad ParlaCAP topic (%).
+51,Appendix --- Topic Emphasis by Party --- Ständerat,staenderat_fig_v4_topic_merged_party_noproc.pdf,staenderat_fig_v4_topic_merged_party_noproc.csv,Topic emphasis by party across top-12 CAP topics (% of party speeches).
+52,Appendix --- Relative Shift in Parliamentary Attention --- Ständerat,staenderat_fig_lt_topic_shift_proportion.pdf,staenderat_fig_lt_topic_shift_proportion.csv,"Top-12 CAP topics, share early (2000-05) vs late (2020-25); ratio late/early."
+53,Appendix --- Who Drives Topic Shifts? --- Ständerat,staenderat_fig_topic_shift_drivers_by_party.pdf,staenderat_fig_topic_shift_drivers_by_party.csv,"Party contribution decomposition (early vs late, in pp)."
+54,Appendix --- Emotional Rhetoric by Party --- Ständerat,staenderat_fig_lt_defD_by_party.pdf,staenderat_fig_lt_defD_by_party.csv,Share of emotional speeches by party-year (%).
+55,Appendix --- Emotional Rhetoric by Legislature and Party --- Ständerat,staenderat_fig_lt_defD_by_legislature.pdf,staenderat_fig_lt_defD_by_legislature.csv,Share of emotional speeches per legislature × party (%).
+56,Appendix --- Emotional Rhetoric Score --- Ständerat,staenderat_fig_lt_ga_emotionality_time.pdf,staenderat_fig_lt_ga_emotionality_time.csv,Yearly mean Gennaro-Ash emotionality z-score (top-6 parties).
+57,Appendix --- Emotional Rhetoric Score by Party --- Ständerat,staenderat_fig_lt_ga_emotionality_party_facet.pdf,staenderat_fig_lt_ga_emotionality_party_facet.csv,Yearly mean Gennaro-Ash z-score by party (Mitte = ex-PDC/M-E).
+58,Appendix --- Emotional Rhetoric Baseline Index --- Ständerat,staenderat_fig_lt_llm_emo_index100.pdf,staenderat_fig_lt_llm_emo_index100.csv,"Emotional-rhetoric share, indexed to 2000=100."
+59,Appendix --- Emotional Rhetoric by Topic --- Ständerat,staenderat_fig_lt_emotionality_topic_large.pdf,staenderat_fig_lt_emotionality_topic_large.csv,Mean share of emotional speeches per topic (%).
+60,Appendix --- Emotional Rhetoric Gap by Topic (SVP vs SP) --- Ständerat,staenderat_fig_GA_party_ratio_by_topic.pdf,staenderat_fig_GA_party_ratio_by_topic.csv,"Mean Gennaro-Ash z-score per topic for SVP and SP, with SVP-SP gap."
+61,Appendix --- Emotional Rhetoric by Topic --- Shift --- Ständerat,staenderat_fig_lt_defD_topic_shift.pdf,staenderat_fig_lt_defD_topic_shift.csv,Within-topic shift in emotional-rhetoric share (pp).
+62,Appendix --- Emotional Rhetoric by Topic and Party --- Ständerat,staenderat_fig_lt_emotionality_topic_by_party_heatmap.pdf,staenderat_fig_lt_emotionality_topic_by_party_heatmap.csv,Mean share of emotional speeches per topic × party (%).
+63,"Appendix --- Emotional Rhetoric by Topic, One Panel per Party --- Ständerat",staenderat_fig_lt_emotionality_topic_by_party_bars.pdf,staenderat_fig_lt_emotionality_topic_by_party_bars.csv,Mean share of emotional speeches per topic × party (%).
+64,Appendix --- Who Drives Emotional-Rhetoric Shifts Within Topics? --- Ständerat,staenderat_fig_emotion_shift_within_topic_drivers_by_party.pdf,staenderat_fig_emotion_shift_within_topic_drivers_by_party.csv,"Within-topic emotional-rhetoric shift, decomposed by party (pp)."
+65,Appendix --- Emotional-Rhetoric Shift Contributions by Party --- Ständerat,staenderat_fig_emotion_shift_within_topic_driver_table.pdf,staenderat_fig_emotion_shift_within_topic_driver_table.csv,"Within-topic emotional-rhetoric shift, decomposed by party (pp)."
+66,Appendix --- Emotional Rhetoric by Topic --- 2000--05 vs 2020--24 --- Ständerat,staenderat_fig_lt_defD_by_topic.pdf,staenderat_fig_lt_defD_by_topic.csv,Within-topic shift in emotional-rhetoric share (pp).
+67,Appendix --- Gender Representation by Party --- Ständerat,staenderat_fig_lt_gender_mp_vs_speeches_party.pdf,staenderat_fig_lt_gender_mp_vs_speeches_party.csv,"Female share among MPs vs among speeches, by party (%)."
+68,Appendix --- Canton Share of Speeches --- Ständerat,staenderat_fig_lt_canton_share.pdf,staenderat_fig_lt_canton_share.csv,Speech share per canton (%).
+69,Appendix --- Canton Speeches per MP --- Ständerat,staenderat_fig_lt_canton_per_mp.pdf,staenderat_fig_lt_canton_per_mp.csv,Speeches per MP by canton.
+70,Appendix --- Floor-Time Gap by Canton --- Ständerat,staenderat_fig_lt_canton_gap.pdf,staenderat_fig_lt_canton_gap.csv,Speech share vs MP share gap (pp) by canton.
+71,Appendix --- Emotional Rhetoric by Generation of MPs --- Ständerat,staenderat_fig_lt_cohort_emotional.pdf,staenderat_fig_lt_cohort_emotional.csv,Share of emotional speeches by speaker birth decade (%).
+72,Appendix --- Emotional Rhetoric by Age Group --- Ständerat,staenderat_fig_lt_age_group_emotional.pdf,staenderat_fig_lt_age_group_emotional.csv,Share of emotional speeches by age group (%).
+73,Appendix --- Emotional Rhetoric by Language of the Speech --- Ständerat,staenderat_fig_lt_emotion_language.pdf,staenderat_fig_lt_emotion_language.csv,Share of emotional speeches by language (%).
+74,Appendix --- Applause by Party --- Ständerat,staenderat_fig_app_rate_by_party.pdf,staenderat_fig_app_rate_by_party.csv,"Share of speeches followed by an applause or laughter bracket, by party (%)."
+74,Appendix --- Applause by Party --- Ständerat,staenderat_fig_app_type_by_party.pdf,staenderat_fig_app_type_by_party.csv,"Applause vs laughter brackets, by party (%)."
+75,Appendix --- Most Applauded Parliamentarians --- Ständerat,staenderat_fig_app_top_mps.pdf,staenderat_fig_app_top_mps.csv,Top 25 MPs by total applause/laughter brackets.
+76,Appendix --- Emotional-Rhetoric Shift Contributions by Party --- Nationalrat,nationalrat_fig_emotion_shift_within_topic_driver_table.pdf,nationalrat_fig_emotion_shift_within_topic_driver_table.csv,"Within-topic emotional-rhetoric shift, decomposed by party (pp)."
+77,Appendix --- Emotional Rhetoric by Topic and Party --- Nationalrat,fig_lt_emotionality_topic_by_party_heatmap.pdf,fig_lt_emotionality_topic_by_party_heatmap.csv,Mean share of emotional speeches per topic × party (%).
+78,"Appendix --- Emotional Rhetoric by Topic, One Panel per Party --- Nationalrat",fig_lt_emotionality_topic_by_party_bars.pdf,fig_lt_emotionality_topic_by_party_bars.csv,Mean share of emotional speeches per topic × party (%).
+79,Appendix --- Emotional-Rhetoric Shift by Topic and Party --- Nationalrat,fig_lt_defD_topic_shift_party.pdf,fig_lt_defD_topic_shift_party.csv,Within-topic emotional-rhetoric shift by party (pp).
+80,Appendix --- Emotional-Rhetoric Shift by Topic and Party --- Ständerat,staenderat_fig_lt_defD_topic_shift_party.pdf,staenderat_fig_lt_defD_topic_shift_party.csv,Within-topic emotional-rhetoric shift by party (pp).
+81,Appendix --- Anger by Party --- Nationalrat,fig_lt_llm_anger_share_party_facet.pdf,fig_lt_llm_anger_share_party_facet.csv,"Share of speeches with dominant emotion = anger, by year × party (%)."
+82,Appendix --- Enthusiasm by Party --- Nationalrat,fig_lt_llm_enthusiasm_share_party_facet.pdf,fig_lt_llm_enthusiasm_share_party_facet.csv,"Share of speeches with dominant emotion = enthusiasm, by year × party (%)."
+83,Appendix --- Fear by Party --- Nationalrat,fig_lt_llm_fear_share_party_facet.pdf,fig_lt_llm_fear_share_party_facet.csv,"Share of speeches with dominant emotion = fear, by year × party (%)."
+84,Appendix --- Sadness by Party --- Nationalrat,fig_lt_llm_sadness_share_party_facet.pdf,fig_lt_llm_sadness_share_party_facet.csv,"Share of speeches with dominant emotion = sadness, by year × party (%)."
+85,Appendix --- Disgust by Party --- Nationalrat,fig_lt_llm_disgust_share_party_facet.pdf,fig_lt_llm_disgust_share_party_facet.csv,"Share of speeches with dominant emotion = disgust, by year × party (%)."
+86,Appendix --- Anger by Party --- Ständerat,staenderat_fig_lt_llm_anger_share_party_facet.pdf,staenderat_fig_lt_llm_anger_share_party_facet.csv,"Share of speeches with dominant emotion = anger, by year × party (%)."
+87,Appendix --- Enthusiasm by Party --- Ständerat,staenderat_fig_lt_llm_enthusiasm_share_party_facet.pdf,staenderat_fig_lt_llm_enthusiasm_share_party_facet.csv,"Share of speeches with dominant emotion = enthusiasm, by year × party (%)."
+88,Appendix --- Fear by Party --- Ständerat,staenderat_fig_lt_llm_fear_share_party_facet.pdf,staenderat_fig_lt_llm_fear_share_party_facet.csv,"Share of speeches with dominant emotion = fear, by year × party (%)."
+89,Appendix --- Sadness by Party --- Ständerat,staenderat_fig_lt_llm_sadness_share_party_facet.pdf,staenderat_fig_lt_llm_sadness_share_party_facet.csv,"Share of speeches with dominant emotion = sadness, by year × party (%)."
+90,Appendix --- Disgust by Party --- Ständerat,staenderat_fig_lt_llm_disgust_share_party_facet.pdf,staenderat_fig_lt_llm_disgust_share_party_facet.csv,"Share of speeches with dominant emotion = disgust, by year × party (%)."

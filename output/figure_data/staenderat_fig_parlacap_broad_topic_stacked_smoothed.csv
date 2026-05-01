@@ -1,0 +1,271 @@
+year,topic_broad,share_pct
+1999,Agriculture & Food,1.6877637130801686
+2000,Agriculture & Food,3.7177541729893777
+2001,Agriculture & Food,3.740458015267176
+2002,Agriculture & Food,8.052950910093767
+2003,Agriculture & Food,5.676126878130217
+2004,Agriculture & Food,7.2727272727272725
+2005,Agriculture & Food,4.930747922437673
+2006,Agriculture & Food,9.095634095634097
+2007,Agriculture & Food,7.0588235294117645
+2008,Agriculture & Food,2.4161073825503356
+2009,Agriculture & Food,4.927099044746104
+2010,Agriculture & Food,6.610407876230662
+2011,Agriculture & Food,6.752411575562702
+2012,Agriculture & Food,12.05897840968931
+2013,Agriculture & Food,6.900958466453674
+2014,Agriculture & Food,4.769560557341908
+2015,Agriculture & Food,6.437994722955145
+2016,Agriculture & Food,6.396453451551615
+2017,Agriculture & Food,6.037151702786378
+2018,Agriculture & Food,4.559043348281016
+2019,Agriculture & Food,3.0913978494623655
+2020,Agriculture & Food,5.771428571428571
+2021,Agriculture & Food,7.0138150903294365
+2022,Agriculture & Food,9.470588235294118
+2023,Agriculture & Food,4.2431192660550465
+2024,Agriculture & Food,5.045871559633028
+2025,Agriculture & Food,5.673382820784729
+1999,"Budget, Tax & Public Finance",22.78481012658228
+2000,"Budget, Tax & Public Finance",15.477996965098633
+2001,"Budget, Tax & Public Finance",21.755725190839694
+2002,"Budget, Tax & Public Finance",31.936017650303366
+2003,"Budget, Tax & Public Finance",27.267668336115747
+2004,"Budget, Tax & Public Finance",26.47272727272727
+2005,"Budget, Tax & Public Finance",22.493074792243767
+2006,"Budget, Tax & Public Finance",18.91891891891892
+2007,"Budget, Tax & Public Finance",21.45658263305322
+2008,"Budget, Tax & Public Finance",21.812080536912752
+2009,"Budget, Tax & Public Finance",27.601809954751133
+2010,"Budget, Tax & Public Finance",21.003281762775433
+2011,"Budget, Tax & Public Finance",21.596998928188636
+2012,"Budget, Tax & Public Finance",22.801474460242233
+2013,"Budget, Tax & Public Finance",18.01916932907348
+2014,"Budget, Tax & Public Finance",19.078242229367632
+2015,"Budget, Tax & Public Finance",19.41952506596306
+2016,"Budget, Tax & Public Finance",21.785940468651045
+2017,"Budget, Tax & Public Finance",21.13003095975232
+2018,"Budget, Tax & Public Finance",23.318385650224215
+2019,"Budget, Tax & Public Finance",17.876344086021508
+2020,"Budget, Tax & Public Finance",19.77142857142857
+2021,"Budget, Tax & Public Finance",19.500531349628055
+2022,"Budget, Tax & Public Finance",15.941176470588236
+2023,"Budget, Tax & Public Finance",12.614678899082568
+2024,"Budget, Tax & Public Finance",14.169215086646277
+2025,"Budget, Tax & Public Finance",15.482502651113467
+1999,Criminal Justice & Rights,37.552742616033754
+2000,Criminal Justice & Rights,16.084977238239755
+2001,Criminal Justice & Rights,12.748091603053435
+2002,Criminal Justice & Rights,10.314396028681742
+2003,Criminal Justice & Rights,9.84974958263773
+2004,Criminal Justice & Rights,9.236363636363636
+2005,Criminal Justice & Rights,10.249307479224377
+2006,Criminal Justice & Rights,15.54054054054054
+2007,Criminal Justice & Rights,19.103641456582633
+2008,Criminal Justice & Rights,10.46979865771812
+2009,Criminal Justice & Rights,7.390648567119156
+2010,Criminal Justice & Rights,9.0014064697609
+2011,Criminal Justice & Rights,5.680600214362272
+2012,Criminal Justice & Rights,9.162717219589258
+2013,Criminal Justice & Rights,10.99041533546326
+2014,Criminal Justice & Rights,13.504823151125404
+2015,Criminal Justice & Rights,11.029023746701846
+2016,Criminal Justice & Rights,10.449651678277391
+2017,Criminal Justice & Rights,12.074303405572756
+2018,Criminal Justice & Rights,14.648729446935723
+2019,Criminal Justice & Rights,10.887096774193548
+2020,Criminal Justice & Rights,17.02857142857143
+2021,Criminal Justice & Rights,13.39001062699256
+2022,Criminal Justice & Rights,10.823529411764705
+2023,Criminal Justice & Rights,10.321100917431194
+2024,Criminal Justice & Rights,9.27624872579001
+2025,Criminal Justice & Rights,10.02120890774125
+1999,Defense & Military,2.5316455696202533
+2000,Defense & Military,5.993930197268589
+2001,Defense & Military,2.0610687022900764
+2002,Defense & Military,4.026475455046883
+2003,Defense & Military,1.669449081803005
+2004,Defense & Military,3.781818181818182
+2005,Defense & Military,3.7673130193905813
+2006,Defense & Military,2.182952182952183
+2007,Defense & Military,3.6414565826330536
+2008,Defense & Military,5.167785234899329
+2009,Defense & Military,4.876822523881348
+2010,Defense & Military,3.5630567276136893
+2011,Defense & Military,4.823151125401929
+2012,Defense & Military,1.2111637704054765
+2013,Defense & Military,4.536741214057508
+2014,Defense & Military,1.6613076098606645
+2015,Defense & Military,6.860158311345646
+2016,Defense & Military,2.8499050031665614
+2017,Defense & Military,3.018575851393189
+2018,Defense & Military,3.811659192825112
+2019,Defense & Military,5.577956989247312
+2020,Defense & Military,1.6
+2021,Defense & Military,2.3910733262486716
+2022,Defense & Military,3.4705882352941178
+2023,Defense & Military,5.217889908256881
+2024,Defense & Military,7.033639143730887
+2025,Defense & Military,10.33934252386002
+1999,Economy & Infrastructure,10.126582278481013
+2000,Economy & Infrastructure,16.38846737481032
+2001,Economy & Infrastructure,15.34351145038168
+2002,Economy & Infrastructure,9.156094870380585
+2003,Economy & Infrastructure,15.025041736227045
+2004,Economy & Infrastructure,11.200000000000001
+2005,Economy & Infrastructure,23.601108033240997
+2006,Economy & Infrastructure,14.085239085239085
+2007,Economy & Infrastructure,11.5406162464986
+2008,Economy & Infrastructure,20.13422818791946
+2009,Economy & Infrastructure,19.65811965811966
+2010,Economy & Infrastructure,16.033755274261605
+2011,Economy & Infrastructure,15.541264737406216
+2012,Economy & Infrastructure,19.747235387045812
+2013,Economy & Infrastructure,15.782747603833865
+2014,Economy & Infrastructure,15.487674169346194
+2015,Economy & Infrastructure,15.356200527704486
+2016,Economy & Infrastructure,18.36605446485117
+2017,Economy & Infrastructure,21.052631578947366
+2018,Economy & Infrastructure,17.189835575485798
+2019,Economy & Infrastructure,22.379032258064516
+2020,Economy & Infrastructure,17.71428571428571
+2021,Economy & Infrastructure,16.578108395324122
+2022,Economy & Infrastructure,11.176470588235295
+2023,Economy & Infrastructure,16.055045871559635
+2024,Economy & Infrastructure,12.89500509683996
+2025,Economy & Infrastructure,15.37645811240721
+1999,Energy & Environment,1.6877637130801686
+2000,Energy & Environment,9.939301972685888
+2001,Energy & Environment,8.396946564885496
+2002,Energy & Environment,2.9784886927744068
+2003,Energy & Environment,3.1719532554257093
+2004,Energy & Environment,2.8363636363636364
+2005,Energy & Environment,4.7091412742382275
+2006,Energy & Environment,10.031185031185032
+2007,Energy & Environment,8.123249299719888
+2008,Energy & Environment,7.785234899328859
+2009,Energy & Environment,5.329311211664153
+2010,Energy & Environment,6.14158462259728
+2011,Energy & Environment,11.682743837084674
+2012,Energy & Environment,5.529225908372828
+2013,Energy & Environment,8.242811501597444
+2014,Energy & Environment,7.234726688102894
+2015,Energy & Environment,12.612137203166226
+2016,Energy & Environment,7.6630778974034195
+2017,Energy & Environment,6.656346749226007
+2018,Energy & Environment,7.174887892376682
+2019,Energy & Environment,10.954301075268818
+2020,Energy & Environment,5.885714285714286
+2021,Energy & Environment,5.100956429330499
+2022,Energy & Environment,17.41176470588235
+2023,Energy & Environment,14.277522935779816
+2024,Energy & Environment,12.844036697247708
+2025,Energy & Environment,8.748674443266172
+1999,Foreign Policy & Security,2.9535864978902953
+2000,Foreign Policy & Security,9.256449165402124
+2001,Foreign Policy & Security,8.931297709923664
+2002,Foreign Policy & Security,4.467733039161611
+2003,Foreign Policy & Security,6.900389538119088
+2004,Foreign Policy & Security,10.836363636363638
+2005,Foreign Policy & Security,5.650969529085873
+2006,Foreign Policy & Security,4.9376299376299375
+2007,Foreign Policy & Security,6.946778711484594
+2008,Foreign Policy & Security,7.046979865771812
+2009,Foreign Policy & Security,6.234288587229764
+2010,Foreign Policy & Security,7.313642756680731
+2011,Foreign Policy & Security,6.859592711682744
+2012,Foreign Policy & Security,6.108478146392839
+2013,Foreign Policy & Security,7.412140575079872
+2014,Foreign Policy & Security,6.591639871382636
+2015,Foreign Policy & Security,5.065963060686015
+2016,Foreign Policy & Security,7.916402786573781
+2017,Foreign Policy & Security,7.043343653250774
+2018,Foreign Policy & Security,6.950672645739911
+2019,Foreign Policy & Security,8.333333333333332
+2020,Foreign Policy & Security,5.314285714285714
+2021,Foreign Policy & Security,5.100956429330499
+2022,Foreign Policy & Security,6.0588235294117645
+2023,Foreign Policy & Security,6.020642201834862
+2024,Foreign Policy & Security,8.205912334352702
+2025,Foreign Policy & Security,8.695652173913043
+1999,Healthcare,4.219409282700422
+2000,Healthcare,7.663125948406677
+2001,Healthcare,7.938931297709924
+2002,Healthcare,4.026475455046883
+2003,Healthcare,11.853088480801336
+2004,Healthcare,10.4
+2005,Healthcare,4.2105263157894735
+2006,Healthcare,11.122661122661123
+2007,Healthcare,10.364145658263306
+2008,Healthcare,11.879194630872483
+2009,Healthcare,7.440925087983912
+2010,Healthcare,6.000937646507267
+2011,Healthcare,7.127545551982852
+2012,Healthcare,7.056345444971038
+2013,Healthcare,10.798722044728434
+2014,Healthcare,10.021436227224008
+2015,Healthcare,5.646437994722955
+2016,Healthcare,6.459784673844206
+2017,Healthcare,3.48297213622291
+2018,Healthcare,4.484304932735426
+2019,Healthcare,7.190860215053764
+2020,Healthcare,8.971428571428572
+2021,Healthcare,13.602550478214665
+2022,Healthcare,9.0
+2023,Healthcare,9.575688073394495
+2024,Healthcare,8.511722731906218
+2025,Healthcare,7.264050901378578
+1999,Migration & Asylum,1.2658227848101267
+2000,Migration & Asylum,3.110773899848255
+2001,Migration & Asylum,2.595419847328244
+2002,Migration & Asylum,0.7170435741864313
+2003,Migration & Asylum,3.672787979966611
+2004,Migration & Asylum,3.563636363636364
+2005,Migration & Asylum,8.476454293628809
+2006,Migration & Asylum,0.7796257796257797
+2007,Migration & Asylum,1.9047619047619049
+2008,Migration & Asylum,3.557046979865772
+2009,Migration & Asylum,2.1116138763197587
+2010,Migration & Asylum,5.625879043600563
+2011,Migration & Asylum,3.376205787781351
+2012,Migration & Asylum,6.582411795681938
+2013,Migration & Asylum,7.220447284345048
+2014,Migration & Asylum,4.394426580921758
+2015,Migration & Asylum,4.802110817941953
+2016,Migration & Asylum,7.473084230525649
+2017,Migration & Asylum,5.108359133126935
+2018,Migration & Asylum,6.950672645739911
+2019,Migration & Asylum,1.747311827956989
+2020,Migration & Asylum,2.2285714285714286
+2021,Migration & Asylum,2.975557917109458
+2022,Migration & Asylum,2.705882352941176
+2023,Migration & Asylum,5.6192660550458715
+2024,Migration & Asylum,6.6768603465851175
+2025,Migration & Asylum,6.468716861081654
+1999,Social Policy & Labor,15.18987341772152
+2000,Social Policy & Labor,12.36722306525038
+2001,Social Policy & Labor,16.48854961832061
+2002,Social Policy & Labor,24.324324324324326
+2003,Social Policy & Labor,14.913745130773512
+2004,Social Policy & Labor,14.399999999999999
+2005,Social Policy & Labor,11.911357340720222
+2006,Social Policy & Labor,13.305613305613306
+2007,Social Policy & Labor,9.859943977591037
+2008,Social Policy & Labor,9.731543624161073
+2009,Social Policy & Labor,14.429361488185016
+2010,Social Policy & Labor,18.70604781997187
+2011,Social Policy & Labor,16.559485530546624
+2012,Social Policy & Labor,9.741969457609267
+2013,Social Policy & Labor,10.095846645367413
+2014,Social Policy & Labor,17.256162915326904
+2015,Social Policy & Labor,12.770448548812666
+2016,Social Policy & Labor,10.639645345155161
+2017,Social Policy & Labor,14.396284829721361
+2018,Social Policy & Labor,10.911808669656203
+2019,Social Policy & Labor,11.96236559139785
+2020,Social Policy & Labor,15.714285714285714
+2021,Social Policy & Labor,14.34643995749203
+2022,Social Policy & Labor,13.941176470588236
+2023,Social Policy & Labor,16.055045871559635
+2024,Social Policy & Labor,15.341488277268095
+2025,Social Policy & Labor,11.930010604453871
