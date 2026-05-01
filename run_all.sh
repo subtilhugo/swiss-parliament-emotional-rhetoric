@@ -28,7 +28,10 @@ if [[ "$SKIP_API" == false ]]; then
   echo "=== 03 Label CAP topics ==="
   python3 src/03_label_topics.py
 
-  echo "=== 04 Merge labels into final dataset ==="
+  echo "=== 04 Gennaro-Ash dictionary-based emotionality scores ==="
+  python3 src/05_ga_score.py
+
+  echo "=== 05 Merge labels into final dataset ==="
   python3 src/04_merge.py
 else
   echo "=== Skipping API steps — using frozen dataset ==="

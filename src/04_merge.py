@@ -30,6 +30,9 @@ LABEL_FILES = {
                    "emo_enthusiasm", "emo_disgust", "emo_hope", "emo_pride"]),
     "topics":    (PROC / "topic_labels.csv",
                   ["ID", "CAP_Topic", "CAP_Code", "CAP_Confidence"]),
+    "ga_score":  (PROC / "ga_scores.csv",
+                  ["ID", "emotionality", "emotionality_z",
+                   "sim_emotion", "sim_cognition"]),
 }
 
 
